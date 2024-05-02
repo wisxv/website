@@ -50,3 +50,22 @@ body {
     width: 74px;
     height: 82px;
 }
+
+.button_js {
+	text-align: center;
+}
+
+#myButton {
+    display: block; /* Блоковый элемент для возможности центрирования */
+    margin: 0 auto; /* Центрирование кнопки */
+    background-color: #4CAF50; /* Цвет фона для кнопки */
+    color: white; 
+    padding: 20px 40px; /* Размеры кнопки через отступ */
+    border-radius: 5px; 
+    font-size: 16px; 
+
+#demo img {
+    width: 100%; /* ширина картинки будет подстраиваться под ширину блока demo */
+    max-width: 500px; /* максимальная ширина картинки */
+    height: auto; /* высота картинки будет автоматически меняться в зависимости от ширины */
+}
