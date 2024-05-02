@@ -5,12 +5,12 @@ body {
 }
 
 .container {
-		margin-top: 30px;
+    margin-top: 30px;
 }
 
 .nav_bar {
-		font-size: 30px;
-		font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .row {}
@@ -20,9 +20,9 @@ body {
 .col-9 {}
 
 .nav_text {
-		display: flex;
-		align-items: center;
-		justify-content: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .col-8 {}
@@ -34,7 +34,7 @@ body {
 .img_size {}
 
 .title_photo {
-		text-align: center;
+    text-align: center;
 }
 
 .custom-photo {
@@ -52,7 +52,7 @@ body {
 }
 
 .button_js {
-	text-align: center;
+    text-align: center;
 }
 
 #myButton {
@@ -63,9 +63,15 @@ body {
     padding: 20px 40px; /* Размеры кнопки через отступ */
     border-radius: 5px; 
     font-size: 16px; 
+}
 
 #demo img {
     width: 100%; /* ширина картинки будет подстраиваться под ширину блока demo */
     max-width: 500px; /* максимальная ширина картинки */
     height: auto; /* высота картинки будет автоматически меняться в зависимости от ширины */
+}
+
+#registration-link, #login-link {
+    display: block;
+    text-align: center;
 }
