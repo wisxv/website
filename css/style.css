@@ -1,0 +1,52 @@
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.container {
+		margin-top: 30px;
+}
+
+.nav_bar {
+		font-size: 30px;
+		font-weight: bold;
+}
+
+.row {}
+
+.col-3 {}
+
+.col-9 {}
+
+.nav_text {
+		display: flex;
+		align-items: center;
+		justify-content: right;
+}
+
+.col-8 {}
+
+.col-6 {}
+
+.col-4 {}
+
+.img_size {}
+
+.title_photo {
+		text-align: center;
+}
+
+.custom-photo {
+    background: url(../img/photo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+.nav_logo {
+    background: url(../img/logo.jpeg) no-repeat center center;
+    background-size: 100%;
+    width: 74px;
+    height: 82px;
+}
